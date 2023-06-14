@@ -1,0 +1,146 @@
+.big__container{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , 443px);
+    justify-content: center;
+    margin: 60px 0px;
+    left: 80px;
+    position: relative;
+    row-gap: 90px;
+}
+.content-container{
+    background: #F6F7FB;
+    Width:276px;    
+    Height:276px;
+    border-radius: 48px;
+}
+.bg__img{
+    padding: 45px 95px;
+    position: absolute;
+}
+.content__product{
+    
+font-family: 'Montserrat';
+position: relative;
+}
+.content-text{
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+margin: 15px 0px;
+}
+.color__bg{
+    color: #FFC123;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    width: 155px;
+    height: 40px;
+    background: rgba(255, 193, 35, 0.1);
+    border-radius: 24px;
+    padding: 13px 30px;
+    text-align: center;
+    
+}
+.color_none{
+    display: none;
+}
+.color__blue{
+    color: #2975FF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    width: 155px;
+    height: 40px;
+     background: rgba(41, 117, 255, 0.1);
+    border-radius: 24px;
+    padding: 13px 30px;
+    text-align: center;
+}
+.color__green{
+    color: #00CC96;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    width: 155px;
+    height: 40px;
+    background: rgba(0, 204, 150, 0.1);
+    border-radius: 24px;
+    padding: 13px 30px;
+    text-align: center;
+}
+.color__pink{
+    color: #FF66A0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    width: 155px;
+    height: 40px;
+    background: rgba(255, 102, 160, 0.1);
+    border-radius: 24px;
+    padding: 13px 30px;
+    text-align: center;
+}
+.sale__off{
+    display: none;
+}
+.sale__on{
+    display: block;
+}
+.sale__content{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 140px;
+    top: 30px;
+    background: red;
+    color: white;
+    width: 90px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+.text__contist{
+    text-decoration: line-through;
+    margin: 0px 20px;
+    color: #1A202C;
+    color: rgba(26, 32, 44, 0.24);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.sale__list{
+    display: flex;
+    align-items: center;
+}
+.total__sale{
+    display: flex;
+    margin: 0px 20px;
+}
+#one{
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color: #1A202C;
+}
+button{
+    position: absolute;
+    left: 41%;
+    height: 64px;
+    width: 165px;
+    border: none;
+    outline: none;
+    border-radius: 48px;
+    background: #00CC96;
+}
+button p{
+    color: #F7FAFC;
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+
+}
